@@ -1,0 +1,11 @@
+{
+  "name": "dynamic-sitemap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/brenoxavier/dynamic-sitemap.git",
+  "author": "Breno Xavier <brenoxavier1227@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^14.3.4"
+  }
+}
