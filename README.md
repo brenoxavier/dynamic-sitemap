@@ -85,7 +85,7 @@
   Generation parameters:
 
   Parameter | Description
-  --------- | ------:
+  --------- | ------
   loc       | Page URL (required)
   lastmod   | Last page change (optional)
   image     | List of parameters for images (optional)
@@ -93,7 +93,7 @@
   Image parameters:
 
   Parameter   | Description
-  ---------   | ------:
+  ---------   | ------
   loc         | Image URL (required)
   title       | Image title (optional)
   description | Image description (optional)
