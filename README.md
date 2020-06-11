@@ -1,9 +1,6 @@
-# dynamic-sitemap
+# Dynamic Sitemap
 
   A module for generating dynamic sitemaps.
-
-  [![NPM Version][npm-image]][npm-url]
-  [![NPM Downloads][downloads-image]][downloads-url]
 
   [![NPM](https://nodei.co/npm/dynamic-sitemap.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/dynamic-sitemap/)
 
@@ -29,7 +26,7 @@
 
   ```js
 
-  const dySitemap = require('./src/index')
+  const dySitemap = require('dynamic-sitemap')
   const fs = require('fs')
 
   const list = [
@@ -85,7 +82,23 @@
 
   ```
 
-# Note
+  Generation parameters:
+
+  Parameter | Description
+  --------- | ------:
+  loc       | Page URL (required)
+  lastmod   | Last page change (optional)
+  image     | List of parameters for images (optional)
+  
+  Image parameters:
+
+  Parameter   | Description
+  ---------   | ------:
+  loc         | Image URL (required)
+  title       | Image title (optional)
+  description | Image description (optional)
+
+## Note
   This module is still in development. new functions and improvements will be added in the future.
 
 ## License
