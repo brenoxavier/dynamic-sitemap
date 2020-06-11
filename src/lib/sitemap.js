@@ -1,6 +1,13 @@
 const element = require('./element')
 
 function build (data) {
+  if (data.length > 500) {
+    console.log('\n> [Dynamic Sitemap] Error! You cannot generate a sitemap with more than 500 items')
+    console.log('> [Dynamic Sitemap] Learn more here: https://www.npmjs.com/package/dynamic-sitemap\n')
+
+    return
+  }
+
   let xml = ''
 
   xml += '<?xml version="1.0" encoding="UTF-8"?>\n'

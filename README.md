@@ -56,6 +56,8 @@
 
   ```
 
+  > Attention! You cannot generate a sitemap with more than 500 URLs. You must use a sitemap for sitemaps. [Learn more](https://www.sitemaps.org/protocol.html#index).
+
   In the case above, I saved the returned data in a sitemap.xml file and the result was as follows:
 
   ```xml
@@ -99,6 +101,8 @@
   description | Image description (optional)
 
 ## Note
+  This module follows the sitemap standards used by Google based on the rules defined by [sitemap.org](https://www.sitemaps.org/).
+
   This module is still in development. new functions and improvements will be added in the future.
 
 ## License
