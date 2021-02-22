@@ -29,7 +29,7 @@
   const dySitemap = require('dynamic-sitemap')
   const fs = require('fs')
 
-  const list = [
+  const xml = dySitemap.build([
     {
       loc: 'https://www.npmjs.com',
       lastmod: '06-11-2020'
@@ -41,16 +41,17 @@
         {
           loc: 'https://docs.npmjs.com/image.jpg',
           title: 'Title example'
+        },
+        {
+          loc: 'https://docs.npmjs.com/image2.jpg'
         }
       ]
     },
     {
       loc: 'https://www.npmjs.com/package/dynamic-sitemap',
-      lastmod: '06-11-2020'
+      lastmod: '06-11-2020',
     }
-  ]
-
-  const xml = dySitemap.build(list)
+  ])
 
   fs.writeFileSync('sitemap.xml', xml)
 
