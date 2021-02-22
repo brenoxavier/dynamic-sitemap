@@ -41,9 +41,6 @@
         {
           loc: 'https://docs.npmjs.com/image.jpg',
           title: 'Title example'
-        },
-        {
-          loc: 'https://docs.npmjs.com/image2.jpg'
         }
       ]
     },
